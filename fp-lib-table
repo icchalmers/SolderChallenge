@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SolderChallenge)(type KiCad)(uri "$(KIPRJMOD)/SolderChallenge.pretty")(options "")(descr ""))
+)
