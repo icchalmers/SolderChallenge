@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
-    (links 0)
+    (links 65)
     (no_connects 0)
     (area 49.95332 49.951373 100.053322 150.051375)
     (thickness 1.6)
@@ -154,11 +154,11 @@
     (add_net VCC)
   )
 
-  (module SolderChallenge:9V_bat_press_contact locked (layer F.Cu) (tedit 5B4DFBBA) (tstamp 5B4E18AD)
+  (module SolderChallenge:9V_bat_press_contact locked (layer F.Cu) (tedit 5B50C1C2) (tstamp 5B4E18AD)
     (at 63 82.35 90)
     (path /5B3E33A3)
     (zone_connect 2)
-    (fp_text reference BT1 (at 5.08 3.302 90) (layer F.SilkS)
+    (fp_text reference BT1 (at 5.08 3.302 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Battery (at 0 -4.318 90) (layer F.Fab) hide
