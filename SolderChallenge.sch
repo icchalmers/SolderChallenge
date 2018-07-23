@@ -988,7 +988,7 @@ U 1 1 5B4F15E8
 P 4250 2100
 F 0 "Q1" H 4260 2270 50  0000 R CNN
 F 1 "MOS_N" H 4200 1950 50  0000 R CNN
-F 2 "SolderChallenge:TO-92_Inline_Narrow_Oval_SGD" H 4250 2100 60  0001 C CNN
+F 2 "SolderChallenge:TO-92_Inline_Wide_SGD" H 4250 2100 60  0001 C CNN
 F 3 "" H 4250 2100 60  0000 C CNN
 	1    4250 2100
 	1    0    0    -1  
