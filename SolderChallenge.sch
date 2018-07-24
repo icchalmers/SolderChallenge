@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:SolderChallenge
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:SolderChallenge-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Battery BT1
+L SolderChallenge:Battery BT1
 U 1 1 5B3E33A3
 P 1100 1150
 F 0 "BT1" H 1200 1250 50  0000 L CNN
@@ -56,7 +26,7 @@ F 3 "" V 1100 1210 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D1
+L SolderChallenge:DIODE D1
 U 1 1 5B3E33FE
 P 2250 1100
 F 0 "D1" H 2250 1200 50  0000 C CNN
@@ -67,7 +37,7 @@ F 3 "" H 2250 1100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED LED1
+L SolderChallenge:LED LED1
 U 1 1 5B3E34EC
 P 1950 2050
 F 0 "LED1" H 1950 2150 50  0000 C CNN
@@ -78,7 +48,7 @@ F 3 "" H 1950 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR01
+L SolderChallenge:GND #PWR01
 U 1 1 5B3E370D
 P 1950 2300
 F 0 "#PWR01" H 1950 2050 50  0001 C CNN
@@ -89,7 +59,7 @@ F 3 "" H 1950 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L SolderChallenge:GND #PWR02
 U 1 1 5B3E377F
 P 1100 1400
 F 0 "#PWR02" H 1100 1150 50  0001 C CNN
@@ -100,7 +70,7 @@ F 3 "" H 1100 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +9V #PWR03
+L SolderChallenge:+9V #PWR03
 U 1 1 5B3E379D
 P 1100 900
 F 0 "#PWR03" H 1100 750 50  0001 C CNN
@@ -111,7 +81,7 @@ F 3 "" H 1100 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR04
+L SolderChallenge:VCC #PWR04
 U 1 1 5B3E37C3
 P 2550 850
 F 0 "#PWR04" H 2550 700 50  0001 C CNN
@@ -122,7 +92,7 @@ F 3 "" H 2550 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +9V #PWR05
+L SolderChallenge:+9V #PWR05
 U 1 1 5B3E37ED
 P 2250 850
 F 0 "#PWR05" H 2250 700 50  0001 C CNN
@@ -133,7 +103,7 @@ F 3 "" H 2250 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L SolderChallenge:R R2
 U 1 1 5B3E3915
 P 2150 1600
 F 0 "R2" V 2230 1600 50  0000 C CNN
@@ -144,7 +114,7 @@ F 3 "" H 2150 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R3
+L SolderChallenge:R R3
 U 1 1 5B3E3942
 P 2350 1600
 F 0 "R3" V 2430 1600 50  0000 C CNN
@@ -155,7 +125,7 @@ F 3 "" H 2350 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R4
+L SolderChallenge:R R4
 U 1 1 5B3E3A42
 P 2550 1600
 F 0 "R4" V 2630 1600 50  0000 C CNN
@@ -166,7 +136,7 @@ F 3 "" H 2550 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED LED2
+L SolderChallenge:LED LED2
 U 1 1 5B3E3D1E
 P 4350 1400
 F 0 "LED2" H 4350 1500 50  0000 C CNN
@@ -177,7 +147,7 @@ F 3 "" H 4350 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR06
+L SolderChallenge:GND #PWR06
 U 1 1 5B3E409E
 P 4350 2550
 F 0 "#PWR06" H 4350 2300 50  0001 C CNN
@@ -188,7 +158,7 @@ F 3 "" H 4350 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L SolderChallenge:R R6
 U 1 1 5B3E4191
 P 3700 1650
 F 0 "R6" V 3780 1650 50  0000 C CNN
@@ -199,7 +169,7 @@ F 3 "" H 3700 1650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR07
+L SolderChallenge:VCC #PWR07
 U 1 1 5B3E4214
 P 3700 1300
 F 0 "#PWR07" H 3700 1150 50  0001 C CNN
@@ -210,7 +180,7 @@ F 3 "" H 3700 1300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LM555N U1
+L SolderChallenge:LM555N U1
 U 1 1 5B3E4612
 P 5900 2200
 F 0 "U1" H 5500 2550 50  0000 L CNN
@@ -221,7 +191,7 @@ F 3 "" H 5900 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L SolderChallenge:R R7
 U 1 1 5B3E4729
 P 6650 1750
 F 0 "R7" V 6730 1750 50  0000 C CNN
@@ -232,7 +202,7 @@ F 3 "" H 6650 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L SolderChallenge:R R8
 U 1 1 5B3E47AC
 P 6650 2450
 F 0 "R8" V 6730 2450 50  0000 C CNN
@@ -243,7 +213,7 @@ F 3 "" H 6650 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L SolderChallenge:C C1
 U 1 1 5B3E481F
 P 6650 2900
 F 0 "C1" H 6675 3000 50  0000 L CNN
@@ -254,7 +224,7 @@ F 3 "" H 6650 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L SolderChallenge:GND #PWR08
 U 1 1 5B3E48C0
 P 6650 3100
 F 0 "#PWR08" H 6650 2850 50  0001 C CNN
@@ -265,7 +235,7 @@ F 3 "" H 6650 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L SolderChallenge:GND #PWR09
 U 1 1 5B3E49D4
 P 5900 2750
 F 0 "#PWR09" H 5900 2500 50  0001 C CNN
@@ -277,7 +247,7 @@ F 3 "" H 5900 2750 50  0001 C CNN
 $EndComp
 NoConn ~ 5400 2200
 $Comp
-L VCC #PWR010
+L SolderChallenge:VCC #PWR010
 U 1 1 5B3E4BF4
 P 5900 1300
 F 0 "#PWR010" H 5900 1150 50  0001 C CNN
@@ -288,7 +258,7 @@ F 3 "" H 5900 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED LED3
+L SolderChallenge:LED LED3
 U 1 1 5B3F458C
 P 7600 1550
 F 0 "LED3" H 7600 1650 50  0000 C CNN
@@ -299,7 +269,7 @@ F 3 "" H 7600 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MOS_N Q2
+L SolderChallenge:MOS_N Q2
 U 1 1 5B3F4592
 P 7500 2000
 F 0 "Q2" H 7510 2170 50  0000 R CNN
@@ -310,7 +280,7 @@ F 3 "" H 7500 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L SolderChallenge:GND #PWR011
 U 1 1 5B3F4598
 P 7600 2450
 F 0 "#PWR011" H 7600 2200 50  0001 C CNN
@@ -321,7 +291,7 @@ F 3 "" H 7600 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L SolderChallenge:R R9
 U 1 1 5B3F459F
 P 7150 1650
 F 0 "R9" V 7230 1650 50  0000 C CNN
@@ -332,7 +302,7 @@ F 3 "" H 7150 1650 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L VCC #PWR012
+L SolderChallenge:VCC #PWR012
 U 1 1 5B3F45B4
 P 7150 1000
 F 0 "#PWR012" H 7150 850 50  0001 C CNN
@@ -343,7 +313,7 @@ F 3 "" H 7150 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM555N U2
+L SolderChallenge:LM555N U2
 U 1 1 5B3F4E19
 P 9050 2250
 F 0 "U2" H 8650 2600 50  0000 L CNN
@@ -354,7 +324,7 @@ F 3 "" H 9050 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L SolderChallenge:R R10
 U 1 1 5B3F4E1F
 P 9800 1800
 F 0 "R10" V 9880 1800 50  0000 C CNN
@@ -365,7 +335,7 @@ F 3 "" H 9800 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L SolderChallenge:R R11
 U 1 1 5B3F4E25
 P 9800 2500
 F 0 "R11" V 9880 2500 50  0000 C CNN
@@ -376,7 +346,7 @@ F 3 "" H 9800 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L SolderChallenge:C C2
 U 1 1 5B3F4E2B
 P 9800 2950
 F 0 "C2" H 9825 3050 50  0000 L CNN
@@ -387,7 +357,7 @@ F 3 "" H 9800 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L SolderChallenge:GND #PWR013
 U 1 1 5B3F4E31
 P 9800 3150
 F 0 "#PWR013" H 9800 2900 50  0001 C CNN
@@ -398,7 +368,7 @@ F 3 "" H 9800 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L SolderChallenge:GND #PWR014
 U 1 1 5B3F4E37
 P 9050 2800
 F 0 "#PWR014" H 9050 2550 50  0001 C CNN
@@ -410,7 +380,7 @@ F 3 "" H 9050 2800 50  0001 C CNN
 $EndComp
 NoConn ~ 8550 2250
 $Comp
-L VCC #PWR015
+L SolderChallenge:VCC #PWR015
 U 1 1 5B3F4E41
 P 9050 1350
 F 0 "#PWR015" H 9050 1200 50  0001 C CNN
@@ -423,7 +393,7 @@ $EndComp
 Text Notes 1700 3550 0    100  ~ 0
 Level 1
 $Comp
-L R R1
+L SolderChallenge:R R1
 U 1 1 5B3F767E
 P 1950 1600
 F 0 "R1" V 2030 1600 50  0000 C CNN
@@ -442,7 +412,7 @@ LED4_Vcc
 Text GLabel 4350 1100 1    60   Input ~ 0
 LED2_Vcc
 $Comp
-L LED LED4
+L SolderChallenge:LED LED4
 U 1 1 5B3F9F49
 P 10700 1600
 F 0 "LED4" H 10700 1700 50  0000 C CNN
@@ -453,7 +423,7 @@ F 3 "" H 10700 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MOS_N Q3
+L SolderChallenge:MOS_N Q3
 U 1 1 5B3F9F4F
 P 10600 2050
 F 0 "Q3" H 10610 2220 50  0000 R CNN
@@ -464,7 +434,7 @@ F 3 "" H 10600 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L SolderChallenge:GND #PWR016
 U 1 1 5B3F9F55
 P 10700 2500
 F 0 "#PWR016" H 10700 2250 50  0001 C CNN
@@ -475,7 +445,7 @@ F 3 "" H 10700 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L SolderChallenge:R R12
 U 1 1 5B3F9F5B
 P 10250 1700
 F 0 "R12" V 10330 1700 50  0000 C CNN
@@ -486,7 +456,7 @@ F 3 "" H 10250 1700 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L VCC #PWR017
+L SolderChallenge:VCC #PWR017
 U 1 1 5B3F9F67
 P 10250 1050
 F 0 "#PWR017" H 10250 900 50  0001 C CNN
@@ -497,7 +467,7 @@ F 3 "" H 10250 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L SolderChallenge:R R5
 U 1 1 5B3FA632
 P 2750 1600
 F 0 "R5" V 2830 1600 50  0000 C CNN
@@ -514,7 +484,7 @@ LED3_Vcc
 Text GLabel 10700 1150 1    60   Input ~ 0
 LED4_Vcc
 $Comp
-L LM555N U3
+L SolderChallenge:LM555N U3
 U 1 1 5B3FBD59
 P 2750 6250
 F 0 "U3" H 2350 6600 50  0000 L CNN
@@ -525,7 +495,7 @@ F 3 "" H 2750 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L SolderChallenge:R R13
 U 1 1 5B3FBD5F
 P 3500 5800
 F 0 "R13" V 3580 5800 50  0000 C CNN
@@ -536,7 +506,7 @@ F 3 "" H 3500 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
+L SolderChallenge:R R14
 U 1 1 5B3FBD65
 P 3500 6500
 F 0 "R14" V 3580 6500 50  0000 C CNN
@@ -547,7 +517,7 @@ F 3 "" H 3500 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L SolderChallenge:C C3
 U 1 1 5B3FBD6B
 P 3500 6950
 F 0 "C3" H 3525 7050 50  0000 L CNN
@@ -558,7 +528,7 @@ F 3 "" H 3500 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L SolderChallenge:GND #PWR018
 U 1 1 5B3FBD71
 P 3500 7150
 F 0 "#PWR018" H 3500 6900 50  0001 C CNN
@@ -569,7 +539,7 @@ F 3 "" H 3500 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L SolderChallenge:GND #PWR019
 U 1 1 5B3FBD77
 P 2750 6800
 F 0 "#PWR019" H 2750 6550 50  0001 C CNN
@@ -581,7 +551,7 @@ F 3 "" H 2750 6800 50  0001 C CNN
 $EndComp
 NoConn ~ 2250 6250
 $Comp
-L VCC #PWR020
+L SolderChallenge:VCC #PWR020
 U 1 1 5B3FBD7E
 P 2750 5350
 F 0 "#PWR020" H 2750 5200 50  0001 C CNN
@@ -592,7 +562,7 @@ F 3 "" H 2750 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED LED5
+L SolderChallenge:LED LED5
 U 1 1 5B3FBD98
 P 5800 5850
 F 0 "LED5" H 5800 5950 50  0000 C CNN
@@ -603,7 +573,7 @@ F 3 "" H 5800 5850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR021
+L SolderChallenge:GND #PWR021
 U 1 1 5B3FBDA4
 P 5350 7050
 F 0 "#PWR021" H 5350 6800 50  0001 C CNN
@@ -614,7 +584,7 @@ F 3 "" H 5350 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L SolderChallenge:R R15
 U 1 1 5B3FBDAA
 P 4450 6300
 F 0 "R15" V 4530 6300 50  0000 C CNN
@@ -625,7 +595,7 @@ F 3 "" H 4450 6300 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L VCC #PWR022
+L SolderChallenge:VCC #PWR022
 U 1 1 5B3FBDB6
 P 4450 5700
 F 0 "#PWR022" H 4450 5550 50  0001 C CNN
@@ -638,7 +608,7 @@ $EndComp
 Text GLabel 5800 5550 1    60   Input ~ 0
 LED5_Vcc
 $Comp
-L R R16
+L SolderChallenge:R R16
 U 1 1 5B3FCF24
 P 4900 6150
 F 0 "R16" V 4980 6150 50  0000 C CNN
@@ -655,7 +625,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 900  1100 950 
 Wire Wire Line
-	1950 1350 2750 1350
+	1950 1350 2150 1350
 Wire Wire Line
 	2250 850  2250 900 
 Wire Wire Line
@@ -671,11 +641,11 @@ Wire Wire Line
 Wire Wire Line
 	6400 2200 6650 2200
 Wire Wire Line
-	6650 1900 6650 2300
+	6650 1900 6650 2200
 Wire Wire Line
 	6650 1450 6650 1600
 Wire Wire Line
-	5900 1300 5900 1800
+	5900 1300 5900 1450
 Wire Wire Line
 	5400 2400 5300 2400
 Wire Wire Line
@@ -685,16 +655,16 @@ Wire Wire Line
 Wire Wire Line
 	6400 2400 6400 2650
 Wire Wire Line
-	5100 2650 6650 2650
+	5100 2650 6400 2650
 Wire Wire Line
-	5300 1450 6650 1450
+	5300 1450 5900 1450
 Connection ~ 5900 1450
 Wire Wire Line
 	5100 2000 5100 2650
 Wire Wire Line
 	6650 3050 6650 3100
 Wire Wire Line
-	6650 2600 6650 2750
+	6650 2600 6650 2650
 Connection ~ 6650 2650
 Connection ~ 6400 2650
 Connection ~ 6650 2200
@@ -712,11 +682,11 @@ Connection ~ 7150 2000
 Wire Wire Line
 	9050 2650 9050 2800
 Wire Wire Line
-	9800 1950 9800 2350
+	9800 1950 9800 2250
 Wire Wire Line
 	9800 1500 9800 1650
 Wire Wire Line
-	9050 1350 9050 1850
+	9050 1350 9050 1500
 Wire Wire Line
 	8550 2450 8450 2450
 Wire Wire Line
@@ -726,22 +696,22 @@ Wire Wire Line
 Wire Wire Line
 	9550 2450 9550 2700
 Wire Wire Line
-	8250 2700 9800 2700
+	8250 2700 9550 2700
 Wire Wire Line
-	8450 1500 9800 1500
+	8450 1500 9050 1500
 Connection ~ 9050 1500
 Wire Wire Line
 	8250 2050 8250 2700
 Wire Wire Line
 	9800 3100 9800 3150
 Wire Wire Line
-	9800 2650 9800 2800
+	9800 2650 9800 2700
 Connection ~ 9800 2700
 Connection ~ 9550 2700
 Wire Wire Line
 	1950 1350 1950 1450
 Wire Wire Line
-	2550 850  2550 1450
+	2550 850  2550 1350
 Wire Wire Line
 	2150 1450 2150 1350
 Connection ~ 2150 1350
@@ -777,15 +747,15 @@ Connection ~ 10250 2050
 Wire Wire Line
 	2750 1750 2750 1850
 Wire Wire Line
-	2750 1200 2750 1450
+	2750 1200 2750 1350
 Wire Wire Line
 	2750 6650 2750 6800
 Wire Wire Line
-	3500 5950 3500 6350
+	3500 5950 3500 6250
 Wire Wire Line
 	3500 5500 3500 5650
 Wire Wire Line
-	2750 5350 2750 5850
+	2750 5350 2750 5500
 Wire Wire Line
 	2250 6450 2150 6450
 Wire Wire Line
@@ -795,16 +765,16 @@ Wire Wire Line
 Wire Wire Line
 	3250 6450 3250 6700
 Wire Wire Line
-	1950 6700 3500 6700
+	1950 6700 3250 6700
 Wire Wire Line
-	2150 5500 3500 5500
+	2150 5500 2750 5500
 Connection ~ 2750 5500
 Wire Wire Line
 	1950 6050 1950 6700
 Wire Wire Line
 	3500 7100 3500 7150
 Wire Wire Line
-	3500 6650 3500 6800
+	3500 6650 3500 6700
 Connection ~ 3500 6700
 Connection ~ 3250 6700
 Connection ~ 3500 6250
@@ -813,7 +783,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 5550 5800 5700
 Wire Wire Line
-	4450 5700 4450 6150
+	4450 5700 4450 5900
 Wire Wire Line
 	4450 6650 4450 6450
 Connection ~ 4450 6650
@@ -823,7 +793,7 @@ Wire Wire Line
 	4900 5900 4900 6000
 Connection ~ 4450 5900
 Wire Wire Line
-	4900 6300 4900 6400
+	4900 6300 4900 6350
 Wire Wire Line
 	4900 6350 5500 6350
 Connection ~ 4900 6350
@@ -832,16 +802,16 @@ Wire Wire Line
 Wire Wire Line
 	4900 6800 4900 6900
 Wire Wire Line
-	4900 6900 5800 6900
+	4900 6900 5350 6900
 Wire Wire Line
 	5800 6900 5800 6500
 Wire Wire Line
 	5350 7050 5350 6900
 Connection ~ 5350 6900
 Wire Wire Line
-	6400 2000 7300 2000
+	6400 2000 7150 2000
 Wire Wire Line
-	9550 2050 10400 2050
+	9550 2050 10250 2050
 Wire Notes Line
 	3000 550  1650 550 
 Wire Notes Line
@@ -895,7 +865,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 6050 3650 6650
 Wire Wire Line
-	3650 6650 4600 6650
+	3650 6650 4450 6650
 Wire Notes Line
 	1800 4900 3850 4900
 Wire Notes Line
@@ -927,7 +897,7 @@ Level 7
 Text Notes 4150 7450 0    100  ~ 0
 Level 8
 $Comp
-L PWR_FLAG #FLG023
+L SolderChallenge:PWR_FLAG #FLG023
 U 1 1 5B409A1C
 P 800 900
 F 0 "#FLG023" H 800 975 50  0001 C CNN
@@ -942,7 +912,7 @@ Wire Wire Line
 Wire Wire Line
 	800  950  1100 950 
 $Comp
-L PWR_FLAG #FLG024
+L SolderChallenge:PWR_FLAG #FLG024
 U 1 1 5B409B49
 P 800 1350
 F 0 "#FLG024" H 800 1425 50  0001 C CNN
@@ -957,7 +927,7 @@ Wire Wire Line
 Wire Wire Line
 	800  1400 1100 1400
 $Comp
-L PWR_FLAG #FLG025
+L SolderChallenge:PWR_FLAG #FLG025
 U 1 1 5B409E9D
 P 2750 1200
 F 0 "#FLG025" H 2750 1275 50  0001 C CNN
@@ -983,7 +953,7 @@ Text Notes 1950 7250 0    60   ~ 0
 Text Notes 4250 7250 0    60   ~ 0
 0603
 $Comp
-L MOS_N Q1
+L SolderChallenge:MOS_N Q1
 U 1 1 5B4F15E8
 P 4250 2100
 F 0 "Q1" H 4260 2270 50  0000 R CNN
@@ -994,7 +964,7 @@ F 3 "" H 4250 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOS_N_x2 Q4
+L SolderChallenge:MOS_N_x2 Q4
 U 1 1 5B4F0CD6
 P 4800 6600
 F 0 "Q4" H 5000 6675 50  0000 L CNN
@@ -1005,7 +975,7 @@ F 3 "" H 4800 6600 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOS_N_x2 Q4
+L SolderChallenge:MOS_N_x2 Q4
 U 2 1 5B4F0D61
 P 5700 6300
 F 0 "Q4" H 5900 6375 50  0000 L CNN
@@ -1015,4 +985,58 @@ F 3 "" H 5700 6300 50  0001 L CNN
 	2    5700 6300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5900 1450 5900 1800
+Wire Wire Line
+	5900 1450 6650 1450
+Wire Wire Line
+	6650 2650 6650 2750
+Wire Wire Line
+	6400 2650 6650 2650
+Wire Wire Line
+	6650 2200 6650 2300
+Wire Wire Line
+	7150 2000 7300 2000
+Wire Wire Line
+	9050 1500 9050 1850
+Wire Wire Line
+	9050 1500 9800 1500
+Wire Wire Line
+	9800 2700 9800 2800
+Wire Wire Line
+	9550 2700 9800 2700
+Wire Wire Line
+	2150 1350 2250 1350
+Wire Wire Line
+	2350 1350 2550 1350
+Wire Wire Line
+	2250 1350 2350 1350
+Wire Wire Line
+	2550 1350 2550 1450
+Wire Wire Line
+	2550 1350 2750 1350
+Wire Wire Line
+	9800 2250 9800 2350
+Wire Wire Line
+	10250 2050 10400 2050
+Wire Wire Line
+	2750 5500 2750 5850
+Wire Wire Line
+	2750 5500 3500 5500
+Wire Wire Line
+	3500 6700 3500 6800
+Wire Wire Line
+	3250 6700 3500 6700
+Wire Wire Line
+	3500 6250 3500 6350
+Wire Wire Line
+	4450 6650 4600 6650
+Wire Wire Line
+	4450 5900 4450 6150
+Wire Wire Line
+	4900 6350 4900 6400
+Wire Wire Line
+	5350 6900 5800 6900
+Wire Wire Line
+	2750 1350 2750 1450
 $EndSCHEMATC
