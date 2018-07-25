@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 54)
+    (drawings 55)
     (tracks 255)
     (zones 0)
     (modules 41)
@@ -2163,6 +2163,9 @@
     )
   )
 
+  (gr_text "Iain Chalmers\nV0.2\nhttps://github.com/icchalmers/SolderChallenge" (at 74.7 56.2) (layer B.SilkS)
+    (effects (font (size 1.2 1.2) (thickness 0.2)) (justify mirror))
+  )
   (gr_text "Press 9V battery\non pads to display score" (at 54.25 76 90) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
