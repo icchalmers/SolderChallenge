@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (unknown)"
-   sodipodi:docname="board_outline.svg">
+   sodipodi:docname="OutlinesToGenerate.svg">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="333.69214"
-     inkscape:cy="139.90436"
+     inkscape:zoom="4"
+     inkscape:cx="143.41945"
+     inkscape:cy="59.991332"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:window-width="1855"
      inkscape:window-height="1056"
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,7 +54,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="F.Cu"
-     style="display:inline">
+     style="display:none">
     <rect
        y="197.00008"
        x="-6.9388939e-18"
@@ -328,6 +328,23 @@
        rx="1"
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="B.Silk"
+     style="display:inline">
+    <rect
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       rx="1"
+       ry="1"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15638953;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1713"
+       width="40"
+       height="5.0447125"
+       x="5.0500002"
+       y="289.47763" />
   </g>
   <g
      id="layer1"
