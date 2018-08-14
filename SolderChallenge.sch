@@ -108,7 +108,7 @@ U 1 1 5B3E3915
 P 2150 1600
 F 0 "R2" V 2230 1600 50  0000 C CNN
 F 1 "390" V 2150 1600 50  0000 C CNN
-F 2 "SolderChallenge:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2080 1600 50  0001 C CNN
+F 2 "SolderChallenge:R_Axial_DIN0207_L6.3mm_D2.5mm_P9.00mm_Horizontal" V 2080 1600 50  0001 C CNN
 F 3 "" H 2150 1600 50  0001 C CNN
 	1    2150 1600
 	-1   0    0    1   
@@ -119,7 +119,7 @@ U 1 1 5B3E3942
 P 2350 1600
 F 0 "R3" V 2430 1600 50  0000 C CNN
 F 1 "390" V 2350 1600 50  0000 C CNN
-F 2 "SolderChallenge:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2280 1600 50  0001 C CNN
+F 2 "SolderChallenge:R_Axial_DIN0207_L6.3mm_D2.5mm_P9.00mm_Horizontal" V 2280 1600 50  0001 C CNN
 F 3 "" H 2350 1600 50  0001 C CNN
 	1    2350 1600
 	-1   0    0    1   
@@ -130,7 +130,7 @@ U 1 1 5B3E3A42
 P 2550 1600
 F 0 "R4" V 2630 1600 50  0000 C CNN
 F 1 "390" V 2550 1600 50  0000 C CNN
-F 2 "SolderChallenge:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2480 1600 50  0001 C CNN
+F 2 "SolderChallenge:R_Axial_DIN0207_L6.3mm_D2.5mm_P9.00mm_Horizontal" V 2480 1600 50  0001 C CNN
 F 3 "" H 2550 1600 50  0001 C CNN
 	1    2550 1600
 	-1   0    0    1   
@@ -398,7 +398,7 @@ U 1 1 5B3F767E
 P 1950 1600
 F 0 "R1" V 2030 1600 50  0000 C CNN
 F 1 "390" V 1950 1600 50  0000 C CNN
-F 2 "SolderChallenge:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1880 1600 50  0001 C CNN
+F 2 "SolderChallenge:R_Axial_DIN0207_L6.3mm_D2.5mm_P9.00mm_Horizontal" V 1880 1600 50  0001 C CNN
 F 3 "" H 1950 1600 50  0001 C CNN
 	1    1950 1600
 	-1   0    0    1   
@@ -472,7 +472,7 @@ U 1 1 5B3FA632
 P 2750 1600
 F 0 "R5" V 2830 1600 50  0000 C CNN
 F 1 "390" V 2750 1600 50  0000 C CNN
-F 2 "SolderChallenge:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2680 1600 50  0001 C CNN
+F 2 "SolderChallenge:R_Axial_DIN0207_L6.3mm_D2.5mm_P9.00mm_Horizontal" V 2680 1600 50  0001 C CNN
 F 3 "" H 2750 1600 50  0001 C CNN
 	1    2750 1600
 	-1   0    0    1   
