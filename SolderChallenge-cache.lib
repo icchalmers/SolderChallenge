@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# SolderChallenge:+9V
+# SolderChallenge_+9V
 #
-DEF SolderChallenge:+9V #PWR 0 0 Y Y 1 F P
+DEF SolderChallenge_+9V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "SolderChallenge:+9V" 0 140 50 H V C CNN
+F1 "SolderChallenge_+9V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +9V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# SolderChallenge:Battery
+# SolderChallenge_Battery
 #
-DEF SolderChallenge:Battery BT 0 0 N N 1 F N
+DEF SolderChallenge_Battery BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "SolderChallenge:Battery" 100 0 50 H V L CNN
+F1 "SolderChallenge_Battery" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -41,11 +41,11 @@ X - 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SolderChallenge:C
+# SolderChallenge_C
 #
-DEF SolderChallenge:C C 0 10 N Y 1 F N
+DEF SolderChallenge_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "SolderChallenge:C" 25 -100 50 H V L CNN
+F1 "SolderChallenge_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -59,11 +59,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SolderChallenge:DIODE
+# SolderChallenge_DIODE
 #
-DEF SolderChallenge:DIODE D 0 40 N N 1 F N
+DEF SolderChallenge_DIODE D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "SolderChallenge:DIODE" 0 -100 50 H V C CNN
+F1 "SolderChallenge_DIODE" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -78,11 +78,11 @@ X C C 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SolderChallenge:GND
+# SolderChallenge_GND
 #
-DEF SolderChallenge:GND #PWR 0 0 Y Y 1 F P
+DEF SolderChallenge_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "SolderChallenge:GND" 0 -150 50 H V C CNN
+F1 "SolderChallenge_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -91,11 +91,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# SolderChallenge:LED
+# SolderChallenge_LED
 #
-DEF SolderChallenge:LED D 0 40 Y N 1 F N
+DEF SolderChallenge_LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "SolderChallenge:LED" 0 -100 50 H V C CNN
+F1 "SolderChallenge_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -112,11 +112,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SolderChallenge:LM555N
+# SolderChallenge_LM555N
 #
-DEF SolderChallenge:LM555N U 0 40 Y Y 1 F N
+DEF SolderChallenge_LM555N U 0 40 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
-F1 "SolderChallenge:LM555N" -400 -350 50 H V L CNN
+F1 "SolderChallenge_LM555N" -400 -350 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS NE555 ICM7555 LMC555 TLC555 NA555 SE555 SA555
@@ -139,11 +139,11 @@ X DIS 7 500 0 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# SolderChallenge:MOS_N
+# SolderChallenge_MOS_N
 #
-DEF SolderChallenge:MOS_N Q 0 0 N Y 1 F N
+DEF SolderChallenge_MOS_N Q 0 0 N Y 1 F N
 F0 "Q" 10 170 50 H V R CNN
-F1 "SolderChallenge:MOS_N" -50 -150 50 H V R CNN
+F1 "SolderChallenge_MOS_N" -50 -150 50 H V R CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 ALIAS MOSFET_N
@@ -160,11 +160,11 @@ X S S 100 -200 100 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SolderChallenge:MOS_N_x2
+# SolderChallenge_MOS_N_x2
 #
-DEF ~SolderChallenge:MOS_N_x2 Q 0 0 Y Y 2 F N
+DEF ~SolderChallenge_MOS_N_x2 Q 0 0 Y Y 2 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "SolderChallenge:MOS_N_x2" 200 0 50 H I L CNN
+F1 "SolderChallenge_MOS_N_x2" 200 0 50 H I L CNN
 F2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -196,11 +196,11 @@ X D 6 100 200 100 D 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# SolderChallenge:PWR_FLAG
+# SolderChallenge_PWR_FLAG
 #
-DEF SolderChallenge:PWR_FLAG #FLG 0 0 N N 1 F P
+DEF SolderChallenge_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "SolderChallenge:PWR_FLAG" 0 150 50 H V C CNN
+F1 "SolderChallenge_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -209,11 +209,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# SolderChallenge:R
+# SolderChallenge_R
 #
-DEF SolderChallenge:R R 0 0 N Y 1 F N
+DEF SolderChallenge_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "SolderChallenge:R" 0 0 50 V V C CNN
+F1 "SolderChallenge_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -227,11 +227,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SolderChallenge:VCC
+# SolderChallenge_VCC
 #
-DEF SolderChallenge:VCC #PWR 0 0 Y Y 1 F P
+DEF SolderChallenge_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "SolderChallenge:VCC" 0 150 50 H V C CNN
+F1 "SolderChallenge_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
